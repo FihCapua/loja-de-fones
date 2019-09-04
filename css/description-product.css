@@ -14,14 +14,25 @@
     margin-bottom: 28px;
 }
 
+.description-product .icon{
+    transition: transform 100ms linear;
+}
+
+.description-product .icon:hover{
+    transform: scale(1.2);
+}
+
 .description-product > .item.-heart{
     position: absolute;
     transform: translateX(-100%);
+    top: 2px;
     left: -47px;
+    cursor: pointer;
 }
 
 .description-product > .item.-star {
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .description-product > .item.-star + .item {
