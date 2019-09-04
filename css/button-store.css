@@ -1,4 +1,4 @@
-.button-store{
+.button-store {
     display: inline-block;
     box-sizing: border-box;
     background-color: #252c41;
@@ -16,17 +16,11 @@
     transition: all 300ms linear;
 }
 
-.button-store:hover,
-.button-store:focus{
-    background-color: #fff;
-    color: #e24647;
-}
-
-.button-store:active{
+.button-store:active {
     transform: scale(0.9);
 }
 
-.button-store.-second{
+.button-store.-second {
     background-color: transparent;
     border: 2px solid #fff;
     width: 218px;
@@ -34,15 +28,23 @@
     margin-right: 38px;
 }
 
-.button-store-second:hover,
-.button-store-second:focus{
-    background-color: #fff;
-    color: #e24647;
-}
-
-.button-store > a{
+.button-store > button,
+.button-store > a {
     font-size: inherit;
     background-color: inherit;
     text-decoration: inherit;
     color: inherit;
+    border: none;
+}
+
+.button-store:hover,
+.button-store:focus {
+    background-color: #fff;
+    color: #e24647;
+}
+
+.button-store-second:hover,
+.button-store-second:focus {
+    background-color: #fff;
+    color: #e24647;
 }
