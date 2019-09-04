@@ -30,6 +30,10 @@
     margin-right: 65px;
 }
 
+.header-store input[type="search"]::placeholder {
+    color: #fff;
+}
+
 .header-store .action {
     text-decoration: none;
     color: inherit;
