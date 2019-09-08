@@ -11,3 +11,7 @@ function handleClick () {
 function handleClick () {
     console.log("Apareci");
 }
+
+function funcaoAlerta(){
+    alert ("Clicou e eu apareci!");
+}
