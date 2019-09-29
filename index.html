@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Headphone store</title>
+    <title>Loja de Fones</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
 
@@ -41,17 +41,31 @@
             <dl class="description-product">
                 <dt class="title">Fone top, feliz e caro</dt>
                 <dd class="item -heart">
-                    <img class="icon" src="img/heart.png" alt="Like">
+                    <img class="icon" src="img/heart.png" alt="Like" />
+                    <img class="icon -active" src="img/heart-active.png" alt="Like" />
                 </dd>
                 <dd class="item -star">
-                    <img class="icon" src="img/estrela_preta.png" alt="Estrela">
-                    <img class="icon" src="img/estrela_preta.png" alt="Estrela">
-                    <img class="icon" src="img/estrela_preta.png" alt="Estrela">
-                    <img class="icon" src="img/estrela_preta.png" alt="Estrela">
-                    <img class="icon" src="img/estrela_transparente.png" alt="Estrela">
+                    <ul>
+                        <li>
+                            <img class="icon -estrela-on" src="img/estrela_preta.png" alt="Estrela">
+                            <img class="icon -estrela-on" src="img/estrela_preta.png" alt="Estrela">
+                            <img class="icon -estrela-on" src="img/estrela_preta.png" alt="Estrela">
+                            <img class="icon -estrela-on" src="img/estrela_preta.png" alt="Estrela">
+                            <img class="icon -estrela-on" src="img/estrela_preta.png" alt="Estrela">
+                        </li>
+
+                        <li>
+                            <img class="icon -estrela-off" src="img/estrela_transparente.png" alt="Estrela">
+                            <img class="icon -estrela-off" src="img/estrela_transparente.png" alt="Estrela">
+                            <img class="icon -estrela-off" src="img/estrela_transparente.png" alt="Estrela">
+                            <img class="icon -estrela-off" src="img/estrela_transparente.png" alt="Estrela">
+                            <img class="icon -estrela-off" src="img/estrela_transparente.png" alt="Estrela">
+                        </li>
+                    </ul>
+
                 </dd>
                 <dd class="item">4.0 (97)</dd>
-                
+
                 <dd class="item -info"> <strong class="contrast">Frete</strong> C$ 108 </dd>
 
                 <dd class="item -info -last"><strong class="contrast">Preço</strong> C$ 340</dd>
@@ -62,8 +76,8 @@
             </dl>
 
             <div class="buttons">
-                <button class="button-store -second" onclick="funcaoAlerta();funcaoMudaTexto()"> Adicionar no carrinho </button>
-        
+                <button class="button-store -second"> Adicionar no carrinho </button>
+
                 <button class="button-store"> <a href="comprar.html ">Comprar</a> </button>
             </div>
         </section>
@@ -71,6 +85,7 @@
     </div>
 
     <script src="js/description-product.js"></script>
+    <script src="js/home.js"></script>
 </body>
 
 </html>
