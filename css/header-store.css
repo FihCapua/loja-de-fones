@@ -96,7 +96,7 @@
         left: 0;
         transform: translateX(-88%);
         background-color: #fff;
-        color: #000;
+        color: #4d4d4d;
     }
     .header-store .-active[type="search"]{
       transform: translateX(0);
