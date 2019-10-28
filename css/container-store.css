@@ -34,6 +34,12 @@
   
       }
     }
+
+    @media (max-width: 330px){
+      .container-store{
+        min-width: 330px;
+      }
+    } 
   
   
   
